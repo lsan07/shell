@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#
+
+content=0
+list=$(ls)
+
+for content in $list
+do
+	echo "$content" | cut -d "-" -f2
+donee
