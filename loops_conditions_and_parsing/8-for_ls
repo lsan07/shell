@@ -6,5 +6,5 @@ list=$(ls)
 
 for content in $list
 do
-	echo "$content" | cut -d "-" -f2
-donee
+        echo "$content" | cut -d "-" -f2
+done
